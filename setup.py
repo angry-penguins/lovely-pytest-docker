@@ -17,7 +17,7 @@ def get_version():
 
 
 setup(
-    name='lovely-pytest-docker',
+    name='penguins-pytest-docker',
     version=get_version(),
     description='Pytest testing utilities with docker containers.',
     long_description=readme,
@@ -25,9 +25,9 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 2.7",
     ],
-    author='Lovely Systems',
-    author_email='office@lovelysystems.com',
-    url='https://github.com/lovelysystems/lovely-pytest-docker',
+    author='zgallerie',
+    author_email='developers@directbuy.com',
+    url='https://github.com/angry-penguins/lovely-pytest-docker',
     keywords='pytest testing docker compose',
     namespace_packages=['lovely'],
     packages=find_packages('src'),
