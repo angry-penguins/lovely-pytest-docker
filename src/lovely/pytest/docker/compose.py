@@ -197,7 +197,7 @@ def docker_compose_files(pytestconfig):
     Override this fixture in your tests if you need a custom location.
     """
     return [
-        os.path.join(str(pytestconfig.rootdir), 'tests', 'docker-compose.yml')
+        os.path.join('tests', 'docker-compose.yml')
     ]
 
 

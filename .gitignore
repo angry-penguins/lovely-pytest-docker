@@ -1,4 +1,9 @@
 /v/
+bin/
+dist/
+lib/
+lib64
+pyvenv.cfg
 .gradle/
 *.py[co]
 *.egg
